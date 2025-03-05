@@ -1,0 +1,25 @@
+footer {
+    justify-content: center;
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    border-top: #D9D9D9 1px solid;
+    align-items: center;
+    background-color: white;
+}
+footer div {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    font-weight: bold;
+}
+.logoTrinidad {
+    height: 80%;
+}
+.logoDevscorp {
+    height: 100%;
+}

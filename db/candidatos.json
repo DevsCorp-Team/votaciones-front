@@ -1,0 +1,61 @@
+{
+    "personeria": [
+        {
+            "id": 1,
+            "nombre": "Sandri Morales",
+            "votos": 0
+        },
+        {
+            "id": 2,
+            "nombre": "Luis Tirado",
+            "votos": 0
+        },
+        {
+            "id": 3,
+            "nombre": "Kener Rodelo",
+            "votos": 0
+        },
+        {
+            "id": 4,
+            "nombre": "Edwin Diaz",
+            "votos": 0
+        },
+        {
+            "id": 5,
+            "nombre": "Juan Perez",
+            "votos": 8
+        },
+        {
+            "id": 6,
+            "nombre": "Voto en blanco",
+            "votos": 2
+        }
+    ],
+    "contraloria": [
+        {
+            "id": 1,
+            "nombre": "Alejandro Martinez López",
+            "votos": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Cheila Henao Herrera",
+            "votos": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Elvis Cuava Morales",
+            "votos": 0
+        },
+        {
+            "id": 4,
+            "nombre": "Aura Ballesta Acosta",
+            "votos": 1
+        },
+        {
+            "id": 5,
+            "nombre": "Voto en blanco",
+            "votos": 1
+        }
+    ]
+}

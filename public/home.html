@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IER La Trinidad - Votaciones</title>
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="./src/js/request.js"></script>
+</head>
+<body>
+    <main>
+       <section class="oneSection">
+            <img src="./assets/logo.jpg" alt="Logo IER La Trinidad">
+       </section>
+       <section class="twoSection">
+        <div>
+            <h1>Votaciones 2025</h1>
+        </div>
+        <div>
+            <form action="http://localhost:3000/api/user/auth" method="post" onsubmit="return false">
+                <div>
+                    <input type="text" class="inputField" id="cc-ti" placeholder="Identificación" name="id">
+                    <input type="password" class="inputField" id="pin" placeholder="Pin" name="pin">
+                </div>
+                <div>
+                    <button onclick="auth()">Votar</button>
+                </div>
+            </form>
+        </div>
+       </section>
+       <footer>
+            <div>
+                <img class="logoDevscorp" src="./assets/devscorp.png" alt="Logo Devscorp">
+                <p>Devscorp en colaboración con IER La Trinidad</p>
+                <img class="logoTrinidad" src="./assets/logo.jpg" alt="Logo IER La Trinidad">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

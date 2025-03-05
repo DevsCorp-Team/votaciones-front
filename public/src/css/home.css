@@ -1,0 +1,88 @@
+.inria-sans-regular {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+html, body {
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: "Inria Sans";
+}
+
+main {
+    width: 95%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oneSection {
+    min-height: 100vh;
+
+}
+
+.oneSection img {
+    width: 551px;
+    height: 620px;
+
+}
+
+.twoSection {
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 130px;
+    text-align: center;
+}
+
+input {
+    padding-left: 10px;
+    color: #8E8E93;
+}
+
+.inputField {
+    border: #49454F 1px solid;
+    border-radius: 8px;
+    width: 200px;
+    height: 35px;
+}
+
+.inputField:last-of-type {
+    margin-left: 30px;
+}
+
+button {
+    margin-top: 15px;
+    width: 150px;
+    height: 27px;
+    border: none;
+    color: white;
+    background-color: #49454F;
+    font-weight: bold;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
